@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Condensed:wght@700&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-size: 32px;
+}
+
+nav{
+	font-size: 0.8rem;
+	font-weight: bold;
+	font-family: 'PT Sans', sans-serif;
+}
+
+h1{
+	font-size: 2rem;
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	right: 10%;
+}
+
+.container-fluid{
+	position: relative;
+	font-size: 2rem;
+    height: 100vh;
+   background-image: url("../images/background.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+}
